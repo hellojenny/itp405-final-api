@@ -71,7 +71,7 @@ app.get('/api/:id', function(request, response) {
 });
 
 // 4. POST /api/all
-// 	  create a new entry
+// 	  create a new food
 app.post('/api/all', function(request, response) {
 	// creating a new food
 	var food = new Food({
